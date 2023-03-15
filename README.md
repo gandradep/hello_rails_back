@@ -29,7 +29,7 @@
 # 📖 Hello Rails Back End <a name="about-project"></a>
 
 
-**Hello Rails Back End** Is an api that is called by the [hello-react-front-end](https://github.com/gandradep/hello-react-front-end) and deliveries a random greeting message.
+**Hello Rails Back End** Is an api that is called by the [hello-react-front-end](https://github.com/gandradep/hello-react-front-end) and delivers a random greeting message.
 
 ## 🛠 Built With <a name="built-with"></a>
 
