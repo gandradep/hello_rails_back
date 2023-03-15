@@ -1,7 +1,8 @@
 class GreettingsController < ApplicationController
   # GET /greettings
   def index
-    surprise = Greetting.find(Greetting.pluck(:id).sample)
-    render json: surprise
+    @greetting = Greetting.find(Greetting.pluck(:id).sample)
+    # @greetting = Greetting.all
+    render json: @greetting, status: :created
   end
 end
