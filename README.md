@@ -26,24 +26,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 HelloWorld Rails with React <a name="about-project"></a>
+# 📖 Hello Rails Back End <a name="about-project"></a>
 
 
-**HelloWorld Rails with React** Is an application where Rails connects to React using Webpack with jsbundling-rails gem
+**Hello Rails Back End** Is an api that is called by the [hello-react-front-end](https://github.com/gandradep/hello-react-front-end) and deliveries a random greeting message.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-In these apps we implement the devise gem to authenticate the user and you can have your recipes securely saved.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
-  </ul>
-</details>
 
 <details>
   <summary>Server</summary>
@@ -65,8 +55,7 @@ In these apps we implement the devise gem to authenticate the user and you can h
 
 
 - **Use rails Api**
-- **Use redux to fetch Api**
-- **Use react for frontend**
+- **Use cors gem**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,22 +92,12 @@ In order to run this project you need: Rails and postgres install on your local 
 
 Clone this repository to your desired folder:
 
-
-```sh
-  https://github.com/gandradep/budget_app.git
-```
-
-
 ### Install
 
-Install this project with:
-
-
-
+Install this api gems with:
 
 ```sh
   $ bundle install
-  $ npm install
 ```
 
 ### Usage
@@ -127,7 +106,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  $ ./bin/dev
+  $ rails server
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +126,9 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Deploy live**
+- [ ] **Add more routes for the API**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -175,7 +154,7 @@ If you like this project do not forget to start the repository.
 
 - [Microverse](https://www.microverse.org/) for giving this project guides.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
